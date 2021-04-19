@@ -21,7 +21,10 @@
   justify-content: space-between;
 }
 .hiv-session > img {
-  width: 20px;
+  width: 12%;
+}
+.hiv-session > p {
+  color: rgb(143, 141, 141);
 }
 
 .recent-end {
