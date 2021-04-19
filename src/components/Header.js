@@ -13,9 +13,7 @@ function Header() {
         <p className="logo-text">ribbon</p>
       </div>
       <div className="logo-right">
-        <Avatar />
-        <i class="fas fa-bell"></i>
-        <i class="fas fa-bell"></i>
+        <Avatar className="avatar-img" />
         <i class="fas fa-bell"></i>
       </div>
     </div>
