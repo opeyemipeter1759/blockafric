@@ -15,6 +15,8 @@ function Header() {
       <div className="logo-right">
         <Avatar />
         <i class="fas fa-bell"></i>
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-bell"></i>
       </div>
     </div>
   );
