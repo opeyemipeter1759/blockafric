@@ -19,8 +19,8 @@ function SelectCurrency() {
         </div>
       </div>
       <div className="but">
-        <Button variant="contained">Primary</Button>
-        <Button variant="contained">Primary</Button>
+        <Button variant="contained">SEND</Button>
+        <Button variant="contained">RECEIVE</Button>
       </div>
     </div>
   );
