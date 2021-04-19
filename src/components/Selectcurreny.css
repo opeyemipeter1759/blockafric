@@ -1,0 +1,19 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.select-upper {
+  width: 100%;
+  margin-top: 2rem;
+  background-color: #efefef;
+  height: 43px;
+  color: #3fb9fa;
+}
+.select-upper > p {
+  position: relative;
+  top: 17px;
+  font-size: 18px;
+  font-weight:600;
+  margin-left: 9px;
+}

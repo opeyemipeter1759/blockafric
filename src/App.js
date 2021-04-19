@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import SelectCurrency from "./components/SelectCurrency";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* hero */}
       <Hero />
       {/* select currrency */}
+      <SelectCurrency />
       {/* recent activity */}
       {/* nav */}
     </div>
