@@ -11,3 +11,21 @@
   font-weight: 700;
   font-size: ;
 }
+.hiv-session {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hiv-session > img {
+  width: 20px;
+}
+
+.recent-end {
+  margin-top: 2rem;
+  background-color: #d9d9d9;
+  height: 2rem;
+}
