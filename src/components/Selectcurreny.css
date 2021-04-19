@@ -46,14 +46,14 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 10%;
+  width: 15%;
   background-color: #d9d9d9;
 }
 .dropdown-text {
   color: #747474;
   font-size: 12px;
   font-weight: 700;
-  margin-right: 10px;
+  margin-right: 4px;
 }
 .dropdown > i {
   color: #ffffff;
