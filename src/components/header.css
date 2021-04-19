@@ -1,17 +1,19 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+/* @media screen and (max-width: 768px) { */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.logo-left {
-  display: flex;
-  align-items: center;
-}
-.logo-right {
-  display: flex;
-  align-items: center;
-}
-.logo-left > img {
-  height: 20px;
-}
+  .logo-left {
+    display: flex;
+    align-items: center;
+  }
+  .logo-right {
+    display: flex;
+    align-items: center;
+  }
+  .logo-left > img {
+    height: 20px;
+  }
+/* } */
