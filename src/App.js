@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       {/* header */}
       <Header />
       {/* hero */}
+      <Hero />
       {/* select currrency */}
       {/* recent activity */}
       {/* nav */}
