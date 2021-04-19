@@ -9,8 +9,8 @@ function HomePage() {
     <div>
       <Header />
       <Hero />
-      <RecentActivity />
       <SelectCurrency />
+      <RecentActivity />
     </div>
   );
 }
