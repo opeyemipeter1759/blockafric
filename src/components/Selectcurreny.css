@@ -14,6 +14,60 @@ p {
   position: relative;
   top: 17px;
   font-size: 18px;
-  font-weight:600;
+  font-weight: 600;
   margin-left: 9px;
+}
+.select-area {
+  display: flex;
+  margin-top: 1.2rem;
+  height: 43px;
+  border-radius: ;
+}
+.select-area > .dropdown {
+}
+
+.select-area > p > i {
+  color: #f7f7f7;
+}
+.figure {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border-radius: 0 3px 3px 0;
+  border: 1px solid #d9d9d9;
+  background: #f3f3f3;
+}
+.figure p {
+  margin-left: 25px;
+  color: #949393;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  background-color: #d9d9d9;
+}
+.dropdown-text {
+  color: #747474;
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.dropdown > i {
+  color: #ffffff;
+  font-size: 20px;
+}
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1.2rem;
+}
+Button {
+  background-color: rgb(4, 169, 244) !important;
+  width: 25% !important;
+  color: white !important;
+  border-radius: 7px !important;
 }

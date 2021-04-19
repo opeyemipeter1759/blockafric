@@ -9,15 +9,19 @@ function SelectCurrency() {
       </div>
 
       <div className="select-area">
-        <select name="currency" id="">
-          <option value="AFYA">AFYA</option>
-        </select>
-        <p>0.000000001</p>
+        <div className="dropdown">
+          <p className="dropdown-text"> AFYA</p>
+          <i class="fas fa-angle-down"></i>
+        </div>
+
+        <div className="figure">
+          <p className="">0.000000001</p>
+        </div>
       </div>
-      <Button variant="contained">Primary</Button>
-      <Button variant="contained" >
-        Primary
-      </Button>
+      <div className="but">
+        <Button variant="contained">Primary</Button>
+        <Button variant="contained">Primary</Button>
+      </div>
     </div>
   );
 }
