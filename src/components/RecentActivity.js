@@ -18,20 +18,19 @@ function RecentActivity() {
         <p className="a100">A100</p>
       </div>
       <div className="hiv-session">
-        <img src={hiv} alt="hiv" />
+        <img src={xray} alt="hiv" />
         <p>HIV Blood Test</p>
 
         <p className="a100">A100</p>
       </div>
       <div className="hiv-session">
-        <img src={hiv} alt="hiv" />
+        <img src={bp} alt="hiv" />
         <p>HIV Blood Test</p>
 
         <p className="a100">A100</p>
       </div>
 
-      <div className="recent-end">
-      </div>
+      <div className="recent-end"></div>
     </div>
   );
 }

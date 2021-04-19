@@ -1,22 +1,29 @@
 import "./App.css";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import RecentActivity from "./components/RecentActivity";
-import SelectCurrency from "./components/SelectCurrency";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Nav from "./components/Nav";
+import Activity from "./Pages/Activity";
+import Home from "./Pages/Home";
+import Market from "./Pages/Market";
+import Earn from "./Pages/Earn";
+import Wallet from "./Pages/Wallet";
+import HomePage from "./components/HomePage";
 
 function App() {
   return (
-    <div className="app">
-      {/* header */}
-      <Header />
-      {/* hero */}
-      <Hero />
-      {/* select currrency */}
-      <SelectCurrency />
-      {/* recent activity */}
-      <RecentActivity />
-      {/* nav */}
-    </div>
+    <BrowserRouter>
+      <div className="app">
+        <Switch>
+          <HomePage />
+
+          <Route path="/home" exact component={Home} />
+          <Route path="/activity" exact component={Activity} />
+          <Route path="/market" exact component={Market} />
+          <Route path="/earn" exact component={Earn} />
+          <Route path="/wallet" exact component={Wallet} />
+        </Switch>
+        <Nav />
+      </div>
+    </BrowserRouter>
   );
 }
 
