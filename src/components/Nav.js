@@ -29,12 +29,12 @@ function Nav() {
           <p>Wallet</p>
         </div>
       </Link>
-      {/* <Link to="/market" className="earn">
+      <Link to="/market" className="earn">
         <div className="market">
           <FeaturedPlayListIcon className="icon active" />
           <p>Market</p>
         </div>
-      </Link> */}
+      </Link>
       <Link to="/earn" className="earn">
         <div className="earn">
           <CreditCardIcon className="icon active" />
