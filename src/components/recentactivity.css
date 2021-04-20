@@ -15,7 +15,29 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1rem;
+  margin-top: 0.2rem;
+  padding: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.xray-session {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bp-session {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.1rem;
+  margin-bottom: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,7 +45,17 @@
 .hiv-session > img {
   width: 26px;
 }
-.hiv-session > p {
+
+.xray-session > img {
+  width: 26px;
+}
+
+.bp-session > img {
+  width: 26px;
+}
+.hiv-session > p,
+.xray-session > p,
+.bp-session > p {
   color: rgb(143, 141, 141);
 }
 
