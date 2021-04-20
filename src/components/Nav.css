@@ -10,6 +10,7 @@ div > p,
 .home {
   text-align: center;
   text-decoration: none !important;
+  color: darkgray !important;
 }
 
 .icon {

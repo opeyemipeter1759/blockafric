@@ -8,7 +8,6 @@ p {
   margin-top: 2rem;
   background-color: #efefef;
   height: 43px;
-  color: #3fb9fa;
 }
 .select-upper > p {
   position: relative;
@@ -17,6 +16,7 @@ p {
   font-weight: 600;
   margin-left: 9px;
   text-align: left;
+  color: #3fb9fa !important;
 }
 .select-area {
   display: flex;
