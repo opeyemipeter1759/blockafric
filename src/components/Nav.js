@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <div className="nav">
-      <Link to="/" className="home">
+      <Link to="/" className="earn">
         <div className="home">
           <HomeIcon className="icon active" />
           <p>Home</p>

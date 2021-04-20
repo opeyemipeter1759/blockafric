@@ -33,9 +33,10 @@
 }
 
 .icon {
-  color: rgb(254, 168, 179);
+  color: rgb(248, 66, 142);
   font-size: 3rem !important;
 }
-.icon:active {
-  color: rgb(248, 66, 142);
+
+.earn {
+  text-decoration: none;
 }
