@@ -5,9 +5,28 @@
   justify-content: space-evenly;
 }
 
-div > p,
-.earn,
-.home {
+.earn > p {
+  text-align: center;
+  text-decoration: none !important;
+  color: darkgray !important;
+}
+.market > p {
+  text-align: center;
+  text-decoration: none !important;
+  color: darkgray !important;
+}
+.activity > p {
+  text-align: center;
+  text-decoration: none !important;
+  color: darkgray !important;
+}
+.wallet > p {
+  text-align: center;
+  text-decoration: none !important;
+  color: darkgray !important;
+}
+
+.home > p {
   text-align: center;
   text-decoration: none !important;
   color: darkgray !important;
