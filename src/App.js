@@ -14,9 +14,9 @@ function App() {
         <Switch>
           <Route path="/home" exact component={HomePage} />
           <Route path="/activity" exact component={Activity} />
+          <Route path="/wallet" exact component={Wallet} />
           <Route path="/market" exact component={Market} />
           <Route path="/earn" exact component={Earn} />
-          <Route path="/wallet" exact component={Wallet} />
         </Switch>
         <Nav />
       </div>

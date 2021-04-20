@@ -5,9 +5,13 @@
   justify-content: space-evenly;
 }
 
-div > p {
+div > p,
+.earn,
+.home {
   text-align: center;
+  text-decoration: none !important;
 }
+
 .icon {
   color: rgb(254, 168, 179);
   font-size: 3rem !important;

@@ -1,7 +1,7 @@
 import React from "react";
-
+import './pages.css'
 function Activity() {
-  return <div>Activity</div>;
+  return <div className="activity1">Activity</div>;
 }
 
 export default Activity;

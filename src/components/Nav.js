@@ -10,32 +10,32 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <div className="nav">
-      <Link to="/home">
+      <Link to="/home" className="home">
         <div className="home">
           <HomeIcon className="icon active" />
           <p>Home</p>
         </div>
       </Link>
 
-      <Link to="/activity">
+      <Link to="/activity" className="earn">
         <div className="activity">
           <AppsIcon className="icon active" />
           <p>Activity</p>
         </div>
       </Link>
-      <Link to="/wallet">
+      <Link to="/wallet" className="earn">
         <div className="wallet">
           <AccountBalanceWalletIcon className="icon active" />
           <p>Wallet</p>
         </div>
       </Link>
-      <Link to="/market">
+      <Link to="/market" className="earn">
         <div className="market">
           <FeaturedPlayListIcon className="icon active" />
           <p>Market</p>
         </div>
       </Link>
-      <Link to="/activity">
+      <Link to="/earn" className="earn">
         <div className="earn">
           <CreditCardIcon className="icon active" />
           <p>Earn</p>
