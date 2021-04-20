@@ -15,11 +15,11 @@ function App() {
         <Header />
 
         <Switch>
-          <Route path="/home" exact component={HomePage} />
-          <Route path="/activity" exact component={Activity} />
-          <Route path="/wallet" exact component={Wallet} />
-          <Route path="/market" exact component={Market} />
-          <Route path="/earn" exact component={Earn} />
+          <Route path="/" exact component={HomePage} />
+          <Route path="/activity"  component={Activity} />
+          <Route path="/wallet"  component={Wallet} />
+          <Route path="/market"  component={Market} />
+          <Route path="/earn"  component={Earn} />
         </Switch>
         <Nav />
       </div>
