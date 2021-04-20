@@ -6,11 +6,14 @@ import Market from "./Pages/Market";
 import Earn from "./Pages/Earn";
 import Wallet from "./Pages/Wallet";
 import HomePage from "./components/HomePage";
+import Header from "./components/Header";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="app">
+        <Header />
+
         <Switch>
           <Route path="/home" exact component={HomePage} />
           <Route path="/activity" exact component={Activity} />
